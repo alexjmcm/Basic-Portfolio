@@ -6,27 +6,31 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body background="assets/images/stripes-light.png">
-    <header>
-      <ul>
-        <li><a class="active" a href="index.html"><strong>Alex Monteiro<strong></a></li>
-        <li style="float:right"><a href="contact.html">Contact</a></li>
-        <li style="float:right"><a href="index.html">About</a></li>
-        <li style="float:right"><a href="portfolio.html">Portfolio</a></li>
-      </ul>
-    </header>
+   <header>
+      <div class="menu">
+        <ul>
+          <li style="float:left"><a class="active" a href="index.html"><strong>Alex Monteiro<strong></a></li>
+          <li style="float:right"><a class="last" href="contact.html">Contact</a></li>
+          <li style="float:right"><a class="inactive" href="index.html">About</a></li>
+          <li style="float:right"><a class="inactive" href="portfolio.html">Portfolio</a></li>
+      </div>
+      </ul>     
+    </header>          
       <main>
         <h1 class="teal"> Contact</h1>
         <hr>
         <form>
-          <form action="/action_page.php">Name:<br><input type="text" name="name" value="John"><br>
-                                          Email:<br><input type="text" name="email" value="john@gmail.com"><br>
-                                          Message:<br><input type="text" name="email" value="message"><br>
+          <form action="/action_page.php">Name<br><input type="text" name="name" value="John Smith"><br>
+                                          Email:<br><input type="text" name="email" value="example@gmail.com"><br>
+                                          Message:<br><input type="text" name="message" value=""><br>
                                       <br>
           <input type="submit" value="Submit">
         </form> 
 
        </main>
-     <footer>Copyright @ </footer>
+     <footer>
+       <p class="p4"> Copyright @ </p>
+     </footer>
 </body>
 
 
