@@ -4,8 +4,7 @@ ul {
     background-color: #ffffff;
     border-color: #cccccc;
     border-style: solid;
-    width: 960px;
-    
+    width: 920px;
 }
 
 li {
@@ -27,17 +26,26 @@ li a:hover:not(.active) {
 .active {
     background-color: #4aaaa5;
     color: white;
+    margin-left: -40px;
 }
+
+/*
+.inactive {
+    margin-left: -10px;
+}*/
+
+
+
 
 body {
     width: 960px;
 }
 
 h1, h2, header {
-    background-color: #4aaaa5;
+    /*background-color: #4aaaa5;*/
     font-family: 'Georgia', Times, Times New Roman, serif;
     width: 960px;
-    color: white;
+    /*color: white;*/
 }
 
 main {
@@ -46,14 +54,18 @@ main {
     border-style: solid;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.8em;
     width: 960px;
     }
  
 footer {
     background-color: #666666;
-    width: 960px;
+    width: 100%;
     text-align: center;
     margin: 0 auto;
+    height: 30px;
+    vertical-align: text-bottom;
+    
 }
 
 /*#bio-image {
@@ -68,6 +80,13 @@ img {
 .clear {
     clear: both;
 }
+
+.teal {
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+
 
 
 
